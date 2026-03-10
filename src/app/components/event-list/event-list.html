@@ -1,0 +1,27 @@
+<div class="card">
+
+<h2>Available Events</h2>
+
+<table>
+
+<tr>
+<th>ID</th>
+<th>Event Name</th>
+<th>Category</th>
+<th>Date</th>
+<th>Location</th>
+</tr>
+
+<tr *ngFor="let event of events">
+
+<td>{{event.id}}</td>
+<td>{{event.name}}</td>
+<td>{{event.category}}</td>
+<td>{{event.date}}</td>
+<td>{{event.location}}</td>
+
+</tr>
+
+</table>
+
+</div>
